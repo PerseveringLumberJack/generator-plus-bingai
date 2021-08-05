@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: generator-plus-bingai
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates/
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    suffix: .html
+    cache: false
+  mvc:
+    static-path-pattern: /static/**
